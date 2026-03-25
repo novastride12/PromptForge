@@ -10,6 +10,10 @@ A prompt compilation system that converts unstructured user input into structure
 - Output validation + retry mechanism
 - Works with Groq API (free tier)
 
+## Architecture
+
+User Input → Intent Detection → Prompt Compilation → LLM → Validation → Output
+
 ## Example
 
 Input:
